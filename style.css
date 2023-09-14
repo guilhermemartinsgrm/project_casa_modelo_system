@@ -4,13 +4,11 @@
     box-sizing: border-box;
 }
 
-/* Estilo de fundo para a página */
 body {
-    background-color: #f4f4f4;
+    background-color: #12334B;
     font-family: Arial, sans-serif;
 }
 
-/* Container centralizado */
 .container {
     width: 400px;
     margin: 0 auto;
@@ -20,14 +18,20 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
-
-/* Estilo do cabeçalho */
 h1 {
+    text-align: center;
+    color: #E86C37;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+
+h2 {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo dos campos de entrada de texto */
 .form-group {
     margin-bottom: 15px;
 }
@@ -47,9 +51,8 @@ input[type="password"] {
     font-size: 16px;
 }
 
-/* Estilo do botão de login */
 button {
-    background-color: #007bff;
+    background-color: #12334B;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -59,7 +62,6 @@ button {
     width: 100%;
 }
 
-/* Estilo para a mensagem de erro/sucesso */
 #message {
     text-align: center;
     margin-top: 10px;
