@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+function () {
     const loginForm = document.getElementById('loginForm');
     const message = document.getElementById('message');
 
